@@ -18,12 +18,12 @@ namespace ResizeIt
         }
         static void Main(string[] args)
         {
-            Console.WriteLine("{0}", System.Environment.CurrentDirectory);
-            Console.WriteLine("Length = {0}", args.Length);
-            for (int i = 0; i < args.Length; ++i)
-            {
-                Console.WriteLine("{0}", args[i]);
-            }
+            //Console.WriteLine("{0}", System.Environment.CurrentDirectory);
+            //Console.WriteLine("Length = {0}", args.Length);
+            //for (int i = 0; i < args.Length; ++i)
+            //{
+            //    Console.WriteLine("{0}", args[i]);
+            //}
             if (args.Length < 2)
             {
                 PrintUsage();
