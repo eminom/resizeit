@@ -30,7 +30,7 @@ namespace ResizeIt
                 return;
             }
 
-            String inputFile = System.Environment.CurrentDirectory + "\\" + args[0];
+            String inputFile = System.Environment.CurrentDirectory + "/" + args[0];
             int targetSize = Int32.Parse(args[1]);
             float fTargetSize = (float)targetSize;
             String outputFile = String.Format("{0}_{1}.png", inputFile, targetSize);

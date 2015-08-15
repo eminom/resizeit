@@ -1,6 +1,7 @@
 *.suo
 *.user
 *.png
+*.exe
 Debug
 Release
 ResizeIt/bin
